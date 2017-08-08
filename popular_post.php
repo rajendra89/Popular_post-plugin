@@ -1,7 +1,6 @@
 <?php 
     /*
-    Plugin Name: Rajendra's popular post
-  
+    Plugin Name: Rajendra's popular post  
     Description: Plugin for displaying popular post on the basis of views.
     Author: Rajendra Rijal
     Version: 1.0
@@ -14,7 +13,11 @@
  /* 
  	* Popular Post Counter
  */
+if(is_admin()){
+	
 
+}
+	
 function my_popular_post_views( $postID){
 	$total_key = 'views';
 	// Get current views field
