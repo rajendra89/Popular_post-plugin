@@ -13,10 +13,6 @@
  /* 
  	* Popular Post Counter
  */
-if(is_admin()){
-	
-
-}
 	
 function my_popular_post_views( $postID){
 	$total_key = 'views';
